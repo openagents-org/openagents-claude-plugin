@@ -1,0 +1,17 @@
+{
+  "name": "openagents",
+  "owner": {
+    "name": "OpenAgents",
+    "email": "team@openagents.org"
+  },
+  "metadata": {
+    "description": "The OpenAgents plugin: delegate tasks to your OpenAgents agents from Claude."
+  },
+  "plugins": [
+    {
+      "name": "openagents",
+      "source": "./",
+      "description": "Delegate tasks to your OpenAgents agents and check their progress, without leaving Claude."
+    }
+  ]
+}

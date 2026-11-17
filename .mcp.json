@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "openagents": {
+      "type": "http",
+      "url": "https://mcp.openagents.org/mcp"
+    }
+  }
+}
