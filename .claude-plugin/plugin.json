@@ -6,7 +6,7 @@
   "description": "Delegate tasks to your OpenAgents agents (coding, research and other agents on your computers or in the cloud) and check their progress, without leaving Claude.",
   "author": {
     "name": "OpenAgents",
-    "email": "team@openagents.org",
+    "email": "support@openagents.org",
     "url": "https://openagents.org"
   },
   "homepage": "https://github.com/openagents-org/openagents-claude-plugin",

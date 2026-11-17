@@ -87,7 +87,7 @@ the `url` in `.mcp.json` to `https://<your-backend>/mcp`.
 
 ## Support
 
-Open an issue in this repository, or email team@openagents.org.
+Open an issue in this repository, or email support@openagents.org.
 The OpenAgents source code is at https://github.com/openagents-org/openagents.
 
 ## License

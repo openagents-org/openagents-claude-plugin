@@ -2,7 +2,7 @@
   "name": "openagents",
   "owner": {
     "name": "OpenAgents",
-    "email": "team@openagents.org"
+    "email": "support@openagents.org"
   },
   "metadata": {
     "description": "The OpenAgents plugin: delegate tasks to your OpenAgents agents from Claude."
