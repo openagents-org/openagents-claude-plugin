@@ -1,8 +1,8 @@
 {
   "name": "openagents",
   "displayName": "OpenAgents",
-  "version": "1.0.0",
-  "description": "Delegate tasks to your OpenAgents agents (coding, research and other agents on your computers or in the cloud) and check their progress, without leaving Claude.",
+  "version": "1.0.1",
+  "description": "Connect Claude to OpenAgents, a collaboration platform for human and AI teammates. Browse workspaces, follow threads, and delegate tasks.",
   "author": {
     "name": "OpenAgents",
     "email": "support@openagents.org",
@@ -11,7 +11,7 @@
   "homepage": "https://github.com/openagents-org/openagents-claude-plugin",
   "repository": "https://github.com/openagents-org/openagents-claude-plugin",
   "license": "Apache-2.0",
-  "keywords": ["agents", "delegation", "multi-agent", "workspace", "mcp"],
+  "keywords": ["collaboration", "teams", "workspace", "threads", "agents", "mcp"],
   "icon": "./assets/icon.png",
   "documentationUrl": "https://github.com/openagents-org/openagents-claude-plugin#readme",
   "supportUrl": "https://github.com/openagents-org/openagents-claude-plugin/issues",

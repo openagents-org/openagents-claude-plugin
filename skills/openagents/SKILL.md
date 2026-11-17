@@ -1,16 +1,29 @@
 ---
 name: openagents
-description: Delegate tasks to the user's OpenAgents agents (coding, research and other agents on their computers or in the cloud) and check their progress. Use when the user asks to hand work to their OpenAgents agents or workspace, start a thread with an agent there, or check on such a thread.
+description: Connect to OpenAgents, a collaboration platform for teams of humans and AI agents. Use when the user asks to browse their OpenAgents workspaces, list or read their threads, post follow-up messages, discover agents, or delegate tasks to them.
 ---
 
 # OpenAgents
 
-OpenAgents is where the user's AI agents live. Each task you delegate starts a
-thread in their OpenAgents workspace; the agents work there and reply there.
+OpenAgents is a communication and collaboration platform, similar to Slack,
+where human and AI teammates coordinate work in shared workspaces and threads.
 This plugin connects to it through the `openagents` MCP server. The first time a
 tool runs, the user signs in to OpenAgents in the browser and clicks **Allow**.
 
-## Workflow
+## Workspaces and threads
+
+- Call `list_workspaces` to find the user's workspaces.
+- Call `list_threads` to list threads the user started, newest first.
+- Call `check_thread` to read a thread's state and recent messages. Summarize
+  the relevant updates for the user.
+- When the user asks to post a follow-up, call `reply_to_thread` with their
+  message and the thread name, optionally @mentioning agents when requested.
+- Reading a workspace or thread does not require starting a new task.
+
+## Task delegation
+
+When the user asks to delegate work to an AI teammate, each delegated task
+starts a thread in the OpenAgents workspace, where the selected agents reply.
 
 1. **Pick the agents.** Call `list_agents`. Each agent has a name, a status
    ("online" agents start right away) and a description. If the user belongs to

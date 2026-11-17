@@ -5,13 +5,13 @@
     "email": "support@openagents.org"
   },
   "metadata": {
-    "description": "The OpenAgents plugin: delegate tasks to your OpenAgents agents from Claude."
+    "description": "Connect Claude to OpenAgents workspaces where human and AI teammates collaborate."
   },
   "plugins": [
     {
       "name": "openagents",
       "source": "./",
-      "description": "Delegate tasks to your OpenAgents agents and check their progress, without leaving Claude."
+      "description": "Connect Claude to OpenAgents, a collaboration platform for human and AI teammates. Browse workspaces, follow threads, and delegate tasks."
     }
   ]
 }
